@@ -41,11 +41,12 @@ export default{
     name:"SideBar",
     data(){
         return {
-            links: [
-        ['mdi-inbox-arrow-down', 'Inbox'],
-        ['mdi-send', 'Send'],
-        ['mdi-delete', 'Trash'],
-        ['mdi-alert-octagon', 'Spam'],
+          links: [
+        ["mdi-microsoft-windows", "Dashboard"],
+        ["mdi-account", "Profile"],
+        ["mdi-clipboard-list-outline", "Products"],
+        ["mdi-card-account-details-outline", "Orders"],
+        ["mdi-cog", "System Setting"],
       ],
         }
     }
