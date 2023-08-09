@@ -1,7 +1,7 @@
 <template>
   <v-app id="inspire">
-    <Header />
-    <Sidebar />
+    <TopBar />
+    <SideBar />
     
 
     <v-main>
@@ -52,7 +52,11 @@
 </template>
 
 <script>
+import SideBar from "./components/SideBar.vue"
+import TopBar from "./components/TopBar.vue"
   export default {
+    name:"App",
+    components:{TopBar,SideBar},
     data: () => ({
       cards: ['Today', 'Yesterday'],
       drawer: null,

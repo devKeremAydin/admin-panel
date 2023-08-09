@@ -27,7 +27,7 @@ elevation="4"
 
 <script>
 export default{
-    name:"Header"
+    name:"TopBar"
 }
 </script>
 <style>
