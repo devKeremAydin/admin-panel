@@ -60,7 +60,7 @@ import TopBar from "./components/TopBar.vue"
     components:{TopBar,SideBar},
     data: () => ({
       cards: ['Today', 'Yesterday'],
-      drawer: false,
+      drawer: true,
       
     }),
   }

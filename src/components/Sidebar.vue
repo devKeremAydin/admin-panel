@@ -3,7 +3,7 @@
 
     <v-img src="">
       <div class="text-center">
-        <v-avatar class="mt-4" color="grey darken-1" size="64">
+        <v-avatar class="mt-4" size="64">
           <v-img src="https://avatars.githubusercontent.com/u/64500329?v=4"></v-img>
         </v-avatar>
         <h3 style="color: white;">krmydn7@gmail.com</h3>
