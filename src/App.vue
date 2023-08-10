@@ -1,7 +1,8 @@
 <template>
   <v-app id="inspire">
-    <TopBar />
-    <SideBar />
+    
+    <SideBar :drawer="drawer" />
+    <TopBar @drawerEvent="drawer = !drawer" />
     
 
     <v-main>
@@ -59,7 +60,7 @@ import TopBar from "./components/TopBar.vue"
     components:{TopBar,SideBar},
     data: () => ({
       cards: ['Today', 'Yesterday'],
-      drawer: null,
+      drawer: false,
       
     }),
   }

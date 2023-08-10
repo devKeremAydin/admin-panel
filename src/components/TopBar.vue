@@ -5,7 +5,7 @@ color="white"
 elevate-on-scroll
 elevation="4"
 >
-<v-app-bar-nav-icon></v-app-bar-nav-icon>
+<v-app-bar-nav-icon @click="$emit('drawerEvent')"></v-app-bar-nav-icon>
 
 <v-toolbar-title>Title</v-toolbar-title>
 
